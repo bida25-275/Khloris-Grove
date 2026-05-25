@@ -1,1 +1,8 @@
-
+body{
+  font-family: Bodoni, sans-serif;
+  color: #0c0c0c;
+  background-color: #8a8572;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
