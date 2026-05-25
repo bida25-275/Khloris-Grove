@@ -6,3 +6,10 @@ body{
   padding: 0;
   line-height: 1.6;
 }
+header {
+    
+  background-color: #4c4270;
+  color: rgb(53, 57, 63);
+  padding: 20px;
+  text-align: center;
+}
