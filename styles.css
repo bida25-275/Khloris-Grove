@@ -14,10 +14,10 @@ header {
   text-align: center;
 }
 nav {
-  positon: relative;
+  position: relative;
   width: 475px;
   height: 50px;
-  bacground: #222;
+  background: #222;
   border-raduis: 10pax;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ nav span {
   position: absolute;
   top: 0;
   left: 0;
-  wodth: 95px;
+  width: 95px;
   height: 100%;
   background: linear-gradient(45deg, #194b4f, #33fffc);
   border-radius: 10px;
