@@ -1,205 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Bodoni+Moda:wght@400;600;700&family=Libre+Bodoni:wght@400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Bodoni+Moda:wght@400;600;700&family=Libre+Bodoni:wght@400;600&family=Homemade+Apple&display=swap');
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
 }
 
 body{
-    background:#f5f5f3;
-    color:#333;
-    font-family:'Playfair Display', serif;
+
+background:#eef0eb;
+font-family:'Playfair Display',serif;
+color:#23452b;
+
 }
+
 
 
 .navbar{
 
-    position:fixed;
-    top:0;
-    left:0;
+display:flex;
 
-    width:100%;
+justify-content:space-between;
 
-    background:#23452b;
+align-items:center;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+padding:25px 70px;
 
-    padding:18px 60px;
-
-    box-shadow:0 4px 12px rgba(0,0,0,.25);
-
-    z-index:999;
+background:#23452b;
 
 }
 
+.logo h1{
 
+font-family:'Playfair Display',serif;
 
-.brand h1{
+font-size:42px;
 
-    font-family:'Macondo', cursive;
-    color:white;
-    font-size:42px;
-    letter-spacing:2px;
-
-}
-
-.brand p{
-
-    font-family:'Bodoni Moda', serif;
-    color:#d7d7d7;
-    font-size:15px;
-    font-style:italic;
-    margin-top:4px;
-    letter-spacing:1px;
+color:white;
 
 }
 
+.logo p{
 
+font-family:'Homemade Apple',cursive;
+
+color:#dcdcdc;
+
+font-size:18px;
+
+margin-top:5px;
+
+}
 
 .nav-links{
 
-    list-style:none;
+display:flex;
 
-    display:flex;
+list-style:none;
 
-    gap:35px;
-
-}
-
-.nav-links li{
-
-    display:inline-block;
+gap:40px;
 
 }
 
 .nav-links a{
 
-    font-family:'Libre Bodoni', serif;
-    color:white;
-    text-decoration:none;
-    font-size:19px;
-    font-weight:600;
+text-decoration:none;
 
-    transition:.3s;
+font-family:'Libre Bodoni',serif;
+
+font-size:19px;
+
+color:white;
+
+transition:.3s;
 
 }
 
 .nav-links a:hover{
 
-    color:#d6d6d6;
+color:#d8d8d8;
 
 }
-
 
 
 .hero{
 
-    margin-top:110px;
+min-height:85vh;
 
-    height:82vh;
+display:flex;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+justify-content:center;
 
-    background-image:
-    linear-gradient(rgba(35,69,43,.45),rgba(35,69,43,.45)),
-    url("images/greek-goddess.jpg");
+align-items:center;
 
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
+padding:60px;
 
-}
+background-color:#eef0eb;
 
+/* Goddess Image */
 
+background-image:url("images/chloris.jpg");
 
-.overlay{
+background-repeat:no-repeat;
 
-    width:65%;
-    max-width:900px;
+background-position:center;
 
-    padding:60px;
-
-    text-align:center;
-
-    background:rgba(255,255,255,.18);
-
-    backdrop-filter:blur(8px);
-
-    border-radius:18px;
-
-    color:white;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.2);
+background-size:300px;
 
 }
 
+.hero-box{
 
+background:rgba(255,255,255,.82);
 
-.hero h1{
+padding:60px;
 
-    font-family:'Playfair Display', serif;
-    font-size:65px;
+border-radius:20px;
 
-    margin-bottom:25px;
+width:65%;
 
-}
+text-align:center;
 
-
-
-.hero p{
-
-    font-family:'Playfair Display', serif;
-    font-size:22px;
-    line-height:1.8;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
 
 }
 
-.intro{
+.hero-box h2{
 
-    margin-top:30px;
-    margin-bottom:40px;
+font-family:'Bodoni Moda',serif;
+
+font-size:56px;
+
+color:#23452b;
+
+margin-bottom:30px;
 
 }
 
+.hero-box p{
 
+font-family:'Playfair Display',serif;
+
+font-size:24px;
+
+line-height:1.9;
+
+color:#333;
+
+margin-bottom:40px;
+
+}
 
 .button{
 
-    display:inline-block;
+display:inline-block;
 
-    padding:16px 40px;
+padding:16px 42px;
 
-    background:white;
+background:#23452b;
 
-    color:#23452b;
+color:white;
 
-    text-decoration:none;
+text-decoration:none;
 
-    border-radius:40px;
+border-radius:40px;
 
-    font-size:20px;
+font-family:'Playfair Display',serif;
 
-    font-family:'Libre Bodoni', serif;
+font-size:20px;
 
-    font-weight:bold;
-
-    transition:.3s;
+transition:.3s;
 
 }
 
 .button:hover{
 
-    background:#23452b;
-
-    color:white;
-
-    border:2px solid white;
+background:#46634c;
 
 }
 
@@ -207,85 +185,74 @@ body{
 
 footer{
 
-    background:#23452b;
+background:#23452b;
 
-    color:white;
+padding:22px;
 
-    text-align:center;
+text-align:center;
 
-    padding:25px;
+color:white;
 
-    font-family:'Playfair Display', serif;
+font-family:'Playfair Display',serif;
 
-    font-size:17px;
+font-size:17px;
 
 }
 
-
-
-@media(max-width:1000px){
+@media(max-width:900px){
 
 .navbar{
 
-    flex-direction:column;
+flex-direction:column;
 
-    text-align:center;
-
-    padding:20px;
+padding:20px;
 
 }
 
-.brand{
+.logo{
 
-    margin-bottom:15px;
+margin-bottom:20px;
+
+text-align:center;
 
 }
 
 .nav-links{
 
-    flex-direction:column;
+flex-direction:column;
 
-    gap:15px;
+gap:15px;
+
+text-align:center;
 
 }
 
 .hero{
 
-    margin-top:190px;
+background-size:180px;
 
-    height:auto;
-
-    padding:70px 20px;
+padding:30px;
 
 }
 
-.overlay{
+.hero-box{
 
-    width:95%;
+width:95%;
 
-    padding:35px;
-
-}
-
-.hero h1{
-
-    font-size:42px;
+padding:35px;
 
 }
 
-.hero p{
+.hero-box h2{
 
-    font-size:18px;
+font-size:36px;
 
 }
 
-.button{
+.hero-box p{
 
-    font-size:18px;
-
-    padding:14px 30px;
+font-size:18px;
 
 }
 
 }
-
