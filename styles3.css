@@ -217,7 +217,8 @@ body{
 
 .card:hover .card-divider{
 
-    background:#6c9f43;
+    background:linear-gradient(to right, #4d7c2f, #ffffff, #4d7c2f);
+
 
 }
 
@@ -247,11 +248,11 @@ body{
 
     height:4px;
 
-    background:#d9e8cc;
+    background:linear-gradient(to right, #6c9f43, #fff7c7, #6c9f43);
 
     margin:0;
 
-    transition:background 0.35s ease;
+    transition:all 0.35s ease;
 
 }
 
