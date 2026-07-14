@@ -224,12 +224,14 @@ text-align:center;
 
 .contact-card{
 
-width:95%;
+        width:95%;
 
-padding:35px;
+        max-width:520px;
+
+        padding:40px 28px;
 
 }
-
+    
 .contact-card h2{
 
 font-size:38px;
@@ -238,9 +240,14 @@ font-size:38px;
 
 .contact-card p{
 
-font-size:18px;
+        font-size:18px;
 
-}
+        line-height:1.8;
+
+        overflow-wrap:break-word;
+
+        word-break:normal;
+ }
 
 .contact-info p{
 
