@@ -137,11 +137,21 @@ body{
 
     margin:70px auto;
 
+    padding:50px;
+
     display:grid;
 
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 
     gap:35px;
+
+    background-image:url("images/leaf-pattern.png");
+
+    background-repeat:repeat;
+
+    background-size:250px;
+
+    border-radius:20px;
 
 }
 
