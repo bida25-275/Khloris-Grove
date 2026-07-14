@@ -249,7 +249,9 @@ body{
 
     background:#d9e8cc;
 
-    transition:0.35s ease;
+    margin:0;
+
+    transition:background 0.35s ease;
 
 }
 
