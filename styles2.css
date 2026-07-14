@@ -264,37 +264,68 @@ text-align:center;
 
 }
 
+/*=========================================
+        CONTACT CARD (MOBILE)
+=========================================*/
+
 .contact-card{
 
-        width:95%;
+    width:95%;
 
-        max-width:520px;
+    max-width:520px;
 
-        padding:40px 28px;
+    margin:45px auto;
+
+    padding:45px 28px;
 
 }
-    
+
 .contact-card h2{
 
-font-size:38px;
+    font-size:42px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
 
 }
 
 .contact-card p{
 
-        font-size:18px;
+    font-size:19px;
 
-        line-height:1.8;
+    line-height:1.9;
 
-        overflow-wrap:break-word;
+    margin-bottom:20px;
 
-        word-break:normal;
- }
+    overflow-wrap:break-word;
+
+    word-break:normal;
+
+}
+
+.contact-info{
+
+    margin-top:32px;
+
+}
 
 .contact-info p{
 
-font-size:19px;
+    font-size:20px;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
 
 }
+
+.contact-info p strong{
+
+    display:block;
+
+    font-size:21px;
+
+    margin-bottom:8px;
 
 }
