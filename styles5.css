@@ -254,21 +254,35 @@ body{
    IMAGE DIVIDER
 ========================================== */
 
+/* ==========================================
+   IMAGE DIVIDER
+========================================== */
+
 .card-divider{
 
     width:100%;
 
     height:2px;
 
-    background:#ffe181;
+    background:linear-gradient(
+        to right,
+        #0B90A7,
+        #ffe181,
+        #FA924C
+    );
 
-    transition:.35s;
+    transition:background 0.35s ease;
 
 }
 
 .card:hover .card-divider{
 
-    background:#0B90A7;
+    background:linear-gradient(
+        to right,
+        #13265C,
+        #0B90A7,
+        #FA924C
+    );
 
 }
 
