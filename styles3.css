@@ -1,1 +1,83 @@
+*{
 
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body{
+
+background:#eef0eb;
+font-family:'Playfair Display',serif;
+color:#23452b;
+
+}
+
+
+
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:25px 70px;
+
+background:#23452b;
+
+}
+
+.logo h1{
+
+font-family:'Playfair Display',serif;
+
+font-size:42px;
+
+color:white;
+
+}
+
+.logo p{
+
+font-family:'Homemade Apple',cursive;
+
+color:#dcdcdc;
+
+font-size:18px;
+
+margin-top:5px;
+
+}
+
+.nav-links{
+
+display:flex;
+
+list-style:none;
+
+gap:40px;
+
+}
+
+.nav-links a{
+
+text-decoration:none;
+
+font-family:'Libre Bodoni',serif;
+
+font-size:19px;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+color:#d8d8d8;
+
+}
