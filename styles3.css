@@ -1,127 +1,319 @@
+/* ==========================
+   GOOGLE FONTS
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Libre+Bodoni:wght@400;500;600&family=Homemade+Apple&family=Satisfy&display=swap');
+
+/* ==========================
+   GENERAL
+========================== */
+
 *{
-
-margin:0;
-padding:0;
-box-sizing:border-box;
-
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
 
-background:#eef0eb;
-font-family:'Playfair Display',serif;
-color:#23452b;
+    background:#fffdf7;
+    font-family:'Playfair Display', serif;
+    color:#333;
 
 }
 
-
+/* ==========================
+   NAVIGATION BAR
+========================== */
 
 .navbar{
 
-display:flex;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-justify-content:space-between;
+    background:#6c9f43;
 
-align-items:center;
+    padding:20px 60px;
 
-padding:25px 70px;
-
-background:#23452b;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
 
 }
 
 .logo h1{
 
-font-family:'Playfair Display',serif;
-
-font-size:42px;
-
-color:white;
+    font-family:'Playfair Display', serif;
+    font-size:38px;
+    color:white;
 
 }
 
 .logo p{
 
-font-family:'Homemade Apple',cursive;
-
-color:#dcdcdc;
-
-font-size:18px;
-
-margin-top:5px;
+    font-family:'Homemade Apple', cursive;
+    color:#fff7c7;
+    font-size:17px;
+    margin-top:5px;
 
 }
 
 .nav-links{
 
-display:flex;
-
-list-style:none;
-
-gap:40px;
+    display:flex;
+    list-style:none;
+    gap:35px;
 
 }
 
 .nav-links a{
 
-text-decoration:none;
+    text-decoration:none;
 
-font-family:'Libre Bodoni',serif;
+    color:white;
 
-font-size:19px;
+    font-family:'Libre Bodoni', serif;
 
-color:white;
+    font-size:18px;
 
-transition:.3s;
+    transition:.3s;
 
 }
 
 .nav-links a:hover{
 
-color:#d8d8d8;
+    color:#fff7c7;
 
 }
+
+/* ==========================
+   PAGE HEADING
+========================== */
+
+.heading{
+
+    text-align:center;
+
+    background:#fff7c7;
+
+    padding:70px 30px;
+
+}
+
+.heading h2{
+
+    font-family:'Playfair Display', serif;
+
+    font-weight:700;
+
+    font-size:55px;
+
+    color:#6c9f43;
+
+    margin-bottom:25px;
+
+}
+
+.heading p{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:22px;
+
+    max-width:850px;
+
+    margin:auto;
+
+    line-height:1.9;
+
+}
+
+/* ==========================
+   PRODUCT GRID
+========================== */
+
+.products{
+
+    width:90%;
+
+    margin:70px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+
+}
+
+/* ==========================
+   PRODUCT CARD
+========================== */
+
+.card{
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    border:2px solid #d8e6c7;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+    border-color:#6c9f43;
+
+}
+
+.card img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+}
+
+/* ==========================
+   PLANT NAME
+========================== */
+
+.card h3{
+
+    font-family:'Satisfy', cursive;
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:#6c9f43;
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+/* ==========================
+   PRICE
+========================== */
+
+.card p{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:22px;
+
+    text-align:center;
+
+    color:#444;
+
+    margin:15px 0 25px;
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
 
 footer{
 
-background:#23452b;
+    background:#6c9f43;
 
-padding:22px;
+    color:white;
 
-text-align:center;
+    text-align:center;
 
-color:white;
+    padding:22px;
 
-font-family:'Playfair Display',serif;
+    font-family:'Libre Bodoni', serif;
 
-font-size:17px;
+    font-size:17px;
 
 }
+
+/* ==========================
+   MOBILE
+========================== */
 
 @media(max-width:900px){
 
 .navbar{
 
-flex-direction:column;
+    flex-direction:column;
 
-padding:20px;
+    text-align:center;
+
+    padding:20px;
 
 }
 
 .logo{
 
-margin-bottom:20px;
-
-text-align:center;
+    margin-bottom:20px;
 
 }
 
 .nav-links{
 
-flex-direction:column;
+    flex-direction:column;
 
-gap:15px;
-
-text-align:center;
+    gap:15px;
 
 }
+
+.heading{
+
+    padding:50px 20px;
+
+}
+
+.heading h2{
+
+    font-size:40px;
+
+}
+
+.heading p{
+
+    font-size:18px;
+
+}
+
+.products{
+
+    width:95%;
+
+}
+
+.card img{
+
+    height:240px;
+
+}
+
+.card h3{
+
+    font-size:30px;
+
+}
+
+.card p{
+
+    font-size:20px;
+
+}
+
+}
+
