@@ -95,7 +95,9 @@ body{
 
     background:#fff7c7;
 
-    padding:70px 30px;
+    padding:70px 30px 50px;
+
+    border-bottom:3px solid #6c9f43;
 
 }
 
@@ -126,42 +128,6 @@ body{
     line-height:1.9;
 
 }
-
-.section-divider{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    margin:45px auto;
-
-    width:90%;
-
-}
-
-.section-divider::before,
-.section-divider::after{
-
-    content:"";
-
-    flex:1;
-
-    border-top:2px solid #6c9f43;
-
-}
-
-.section-divider span{
-
-    font-size:34px;
-
-    color:#6c9f43;
-
-    margin:0 18px;
-
-}
-
 
 /* ==========================
    PRODUCT GRID
