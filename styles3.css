@@ -171,9 +171,9 @@ body{
 
     background-position:center;
 
-    filter:blur(3px);
+    filter:blur(2px);
 
-    opacity:0.35;
+    opacity:0.25;
 
     z-index:0;
 
