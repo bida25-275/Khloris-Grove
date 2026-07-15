@@ -224,10 +224,6 @@ body{
 
     border:2px solid #460038;
 
-    outline:2px solid #460038;
-
-    outline-offset:-5px;
-
     border-radius:24px;
 
     overflow:hidden;
@@ -248,7 +244,6 @@ body{
 
     border-color:#9C51B6;
 
-    outline-color:#9C51B6;
 
 }
 
